@@ -1,0 +1,40 @@
+#header {
+    background-color: white;
+    position: fixed;
+    height: 80px;
+    width: 100%;  
+    top: 0;
+    
+}
+body {
+    background-color: #f5d020;
+    background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+}
+section {
+    display: block;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: fit-content;
+}
+
+.table {
+    width: auto;
+    display: grid;
+    justify-content: center;
+}
+
+.table>thead {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
